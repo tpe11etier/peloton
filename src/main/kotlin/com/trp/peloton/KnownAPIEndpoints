@@ -1,0 +1,14 @@
+https://api.onepeloton.com/api/user/91d30ab51009455884a24c0083379947/calendar
+
+
+https://api.onepeloton.com/api/user/91d30ab51009455884a24c0083379947/referral_history
+
+
+
+// Possibly the same data as /workouts?
+https://api.onepeloton.com/api/user/91d30ab51009455884a24c0083379947/overview?version=1
+
+
+// Follower and Following
+
+https://api.onepeloton.com/api/user/91d30ab51009455884a24c0083379947/followers?limit=1000

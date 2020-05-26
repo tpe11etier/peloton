@@ -1,0 +1,117 @@
+package com.trp.peloton.moshiobjects
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
+
+//import com.fasterxml.jackson.annotation.JsonProperty
+
+@JsonClass(generateAdapter = true)
+data class Data(
+    @field:Json(name = "authed_user_reservation_id")
+    var authedUserReservationId: Any?,
+    @field:Json(name = "countdown")
+    var countdown: Any?,
+    @field:Json(name = "created_at")
+    var createdAt: Int?,
+    @field:Json(name = "end_time")
+    var endTime: Int?,
+    @field:Json(name = "id")
+    var id: String?,
+    @field:Json(name = "is_complete")
+    var isComplete: Boolean?,
+    @field:Json(name = "is_encore")
+    var isEncore: Boolean?,
+    @field:Json(name = "is_live")
+    var isLive: Boolean?,
+    @field:Json(name = "is_studio")
+    var isStudio: Boolean?,
+    @field:Json(name = "pedaling_end_time")
+    var pedalingEndTime: Int?,
+    @field:Json(name = "pedaling_start_time")
+    var pedalingStartTime: Int?,
+    @field:Json(name = "ride_id")
+    var rideId: String?,
+    @field:Json(name = "scheduled_start_time")
+    var scheduledStartTime: Int?,
+    @field:Json(name = "seconds_since_start")
+    var secondsSinceStart: Any?,
+    @field:Json(name = "server_time")
+    var serverTime: Int?,
+    @field:Json(name = "start_time")
+    var startTime: Int?,
+    @field:Json(name = "status")
+    var status: String?,
+    @field:Json(name = "total_home_reservations")
+    var totalHomeReservations: Int?,
+    @field:Json(name = "total_workouts")
+    var totalWorkouts: Int?,
+    @field:Json(name = "about_image_url")
+    var aboutImageUrl: String?,
+    @field:Json(name = "background")
+    var background: String?,
+    @field:Json(name = "bike_instructor_list_display_image_url")
+    var bikeInstructorListDisplayImageUrl: Any?,
+    @field:Json(name = "bio")
+    var bio: String?,
+    @field:Json(name = "coach_type")
+    var coachType: String?,
+    @field:Json(name = "facebook_fan_page")
+    var facebookFanPage: String?,
+    @field:Json(name = "featured_profile")
+    var featuredProfile: Boolean?,
+    @field:Json(name = "film_link")
+    var filmLink: String?,
+    @field:Json(name = "first_name")
+    var firstName: String?,
+    @field:Json(name = "fitness_disciplines")
+    var fitnessDisciplines: List<String>?,
+    @field:Json(name = "image_url")
+    var imageUrl: String?,
+    @field:Json(name = "instagram_profile")
+    var instagramProfile: String?,
+    @field:Json(name = "instructor_hero_image_url")
+    var instructorHeroImageUrl: String?,
+    @field:Json(name = "ios_instructor_list_display_image_url")
+    var iosInstructorListDisplayImageUrl: String?,
+    @field:Json(name = "is_filterable")
+    var isFilterable: Boolean?,
+    @field:Json(name = "is_visible")
+    var isVisible: Boolean?,
+    @field:Json(name = "jumbotron_url")
+    var jumbotronUrl: Any?,
+    @field:Json(name = "jumbotron_url_dark")
+    var jumbotronUrlDark: String?,
+    @field:Json(name = "jumbotron_url_ios")
+    var jumbotronUrlIos: String?,
+    @field:Json(name = "last_name")
+    var lastName: String?,
+    @field:Json(name = "life_style_image_url")
+    var lifeStyleImageUrl: String?,
+    @field:Json(name = "list_order")
+    var listOrder: Int?,
+    @field:Json(name = "music_bio")
+    var musicBio: String?,
+    @field:Json(name = "name")
+    var name: String?,
+    @field:Json(name = "ordered_q_and_as")
+    var orderedQAndAs: List<List<String>>?,
+    @field:Json(name = "quote")
+    var quote: String?,
+    @field:Json(name = "short_bio")
+    var shortBio: String?,
+    @field:Json(name = "spotify_playlist_uri")
+    var spotifyPlaylistUri: String?,
+    @field:Json(name = "strava_profile")
+    var stravaProfile: String?,
+    @field:Json(name = "twitter_profile")
+    var twitterProfile: String?,
+    @field:Json(name = "user_id")
+    var userId: String?,
+    @field:Json(name = "username")
+    var username: String?,
+    @field:Json(name = "web_instructor_list_display_image_url")
+    var webInstructorListDisplayImageUrl: String?,
+    @field:Json(name = "web_instructor_list_gif_image_url")
+    var webInstructorListGifImageUrl: Any?
+)

@@ -1,0 +1,19 @@
+# Project exclude paths
+/.gradle/
+/build/
+.idea/libraries/
+.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/workspace.xml
+*.iml
+.kobalt/
+.gradle/
+gradle.properties
+kobaltw
+build/
+out/
+*.properties
+Tester.kt
+src/main/temp/peloton.py
+.idea/*
